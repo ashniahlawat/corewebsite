@@ -1,0 +1,46 @@
+/* Navbar.css */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  transition: 0.3s ease; /* Smooth background transition */
+}
+
+/* Navbar links styling */
+.navbar-nav .nav-link {
+  color: #f4f4f4; /* Light grey color for text */
+  text-decoration: none; /* No underline */
+  font-weight: bold;
+  font-size: 1rem; /* Increased font size */
+  font-family: 'Helvetica Neue', sans-serif; /* Elegant sans-serif font */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth color and transform transition */
+  margin: 0 1rem;
+  
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f26227; /* Deep red-orange color for hover effect */
+  transform: scale(1.1); /* Slightly scale up on hover */
+}
+
+/* Remove underline for active link */
+.navbar-nav .nav-link.active {
+  border-bottom: none; /* No underline for active link */
+}
+
+
+#contactlink{
+  :hover {
+    border-color: #f26227;
+    color:#f26227;
+  }
+}
+#contactlink{
+  :hover {
+    color:#f26227;
+  }
+}

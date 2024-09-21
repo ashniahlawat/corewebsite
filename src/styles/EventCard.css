@@ -1,0 +1,93 @@
+/* EventCard.css */
+.event-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9%;
+  padding-bottom: 5%;
+  padding-top: 0%;
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.image-left {
+  flex-direction: row;
+}
+
+.image-right {
+  flex-direction: row-reverse;
+}
+
+.event-info {
+  flex: 1;
+  color: #f4f4f4;
+  text-align: left;
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.details {
+  flex: 1;
+  color: #f4f4f4;
+  text-align: left;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+
+.details::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-left: 3px solid #ffffff;
+  padding-left: 1rem;
+}
+
+.designathon-image {
+  flex: 1;
+  max-width: 100%;
+  width: 70%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.register-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.register-button:hover {
+  color: #f26227;
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.event-name {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.dates {
+  margin-right: 9%;
+  margin-top: 2%;
+  color: #6c6c6c;
+  font-size: 1rem;
+}
